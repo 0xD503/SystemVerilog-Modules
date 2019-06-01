@@ -1,8 +1,8 @@
 module ShiftRegister
 	#(parameter N = 8)
 	(input logic		clk,
-						reset, Load, Enable,
-						Sin,
+	input logic		reset, Load, Enable,
+	input logic		Sin,
 	input logic[N-1:0]	Din,
 	output logic		Sout,
 	output logic[N-1:0]	Dout);
